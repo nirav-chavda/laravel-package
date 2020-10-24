@@ -1,0 +1,26 @@
+{
+    "name": "niravchavda/timezone",
+    "description": "Demo package to show time according to timezone",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nirav Chavda",
+            "email": "niravdchavda@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "NiravChavda\\Timezone\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NiravChavda\\Timezone\\TimezoneServiceProvider"
+            ]
+        }
+    }
+}
